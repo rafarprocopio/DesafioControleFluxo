@@ -19,7 +19,7 @@ public class DesafioControleSaque {
                 break; // Encerra o loop
             } else {
                 limiteDiario = limiteDiario - valorSaque;
-                System.out.println("Saque realizado. Limite restante: " + limiteDiario +  "  \nTransacoes encerradas. ");
+                System.out.println("Saque realizado. Limite restante: " + limiteDiario);
             }
         }
 
