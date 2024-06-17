@@ -15,16 +15,15 @@ public class DesafioControleSaque {
                 System.out.println("Transacoes encerradas.");
                 break; // Encerra o loop
             } else if (valorSaque > limiteDiario) {
-                System.out.println("Limite diario de saque atingido. Transacoes encerradas.");
+                System.out.println("Limite diario de saque atingido. \nTransacoes encerradas.");
                 break; // Encerra o loop
             } else {
                 limiteDiario = limiteDiario - valorSaque;
-                System.out.println("Saque realizado. Limite restante: " + limiteDiario + " Transacoes encerradas. ");
+                System.out.println("Saque realizado. Limite restante: " + limiteDiario +  "  \nTransacoes encerradas. ");
             }
         }
 
         // Fechar o scanner para evitar vazamentos de recursos
         scanner.close();
     }
-}
 }
